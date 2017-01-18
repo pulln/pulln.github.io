@@ -1,8 +1,9 @@
 body {
-	backround-color: black;
+	backround-color: Silver;
 }
 
 h1, h3, p {
-	color: gold;
+	backround: Silver;
+	color: orange;
 }
 
