@@ -1,11 +1,12 @@
-<style>
 body {
-	backround: #66ffff url("oaoaiaoiaoaoaoaoooaoaoooaoa.gif") no-repeat fixed center;
+backround-color: blue;
+backround-image: url("oaoaiaoiaoaoaoaoooaoaoooaoa.gif") no-repeat fixed center;
 }
 
-h1, h3, p {
+h1, h3 {
 	backround-color: black;
 	color: orange;
 }
-
-</style>
+ p {
+ 	color: red;
+ }
