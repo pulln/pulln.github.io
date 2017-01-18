@@ -1,18 +1,16 @@
 body {
+background-color: #66ffff;
+ background-image: url("../pulln.github.io/oaoaiaoiaoaoaoaoooaoaoooaoa.gif") no-repeat fixed center;
 
 }
 
 h1, h3 {
-	backround-color: black;
+	background-color: black;
 	color: orange;
 }
 
-div {
-backround-color: #66ffff;
-  background-image: url("oaoaiaoiaoaoaoaoooaoaoooaoa.gif") no-repeat fixed center;
-}
 
- p {
- 	backround: blue;
+
+ p {;
  	color: red;
  }
