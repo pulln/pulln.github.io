@@ -1,9 +1,12 @@
+html {
+background: url("../images/europa.jpg") no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 body {
-	background: url("../unit_3/images/europa.jpg") no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 	background-color: black;
 	color: white;
 	font-style: helvetica;
@@ -30,4 +33,9 @@ h1, h3 {
 
 h4, p {
 	text-align: center;
+}
+
+.memes {
+	animation-duration: 15s;
+	animation-name
 }
