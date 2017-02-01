@@ -22,7 +22,7 @@ h1, h3 {
 }
 
 body {
-    background: url('images/europa.jpg') no-repeat fixed;
+    background: url('../unit_3/images/europa.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
