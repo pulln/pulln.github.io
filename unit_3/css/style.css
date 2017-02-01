@@ -9,7 +9,7 @@ background-size: cover;
 body {
 	background-color: black;
 	color: white;
-	font-style: helvetica;
+	font-style: ;
 }
 
 h1, h3 {
@@ -36,6 +36,16 @@ h4, p {
 }
 
 .memes {
-	animation-duration: 15s;
-	animation-name
+  height: 151px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: black;
+  animation-name: stretch;
+  animation-duration: 5.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
