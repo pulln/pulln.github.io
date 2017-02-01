@@ -4,7 +4,7 @@ body {
 	font-style: helvetica;
 }
 
-p {
+h1, h3 {
   animation-duration: 6s;
   animation-name: slidein;
 }
