@@ -5,7 +5,7 @@ body {
 }
 
 h1, h3 {
-  animation-duration: 6s;
+  animation-duration: 20s;
   animation-name: slidein;
 }
 
@@ -21,6 +21,14 @@ h1, h3 {
   }
 }
 
+body {
+    background: url('images/europa.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 h1 {
 	size: 125px;
 }
@@ -33,7 +41,7 @@ h4, p {
 }
 
 .memes {
-  height: 250px;
+  height: 151px;
   width: 250px;
   margin: 0 auto;
   background-color: red;
