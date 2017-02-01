@@ -29,14 +29,14 @@ div:hover {
 body {
 	background-color: black;
 	color: white;
-	font-style: ;
+	font-style: bold;
 }
 
 h1, h3 {
   animation-duration: 120s;
   animation-name: slidein;
  text-align: left;
- size: 125px;
+ size: 250px;
 }
 
 @keyframes slidein {
@@ -52,7 +52,7 @@ h1, h3 {
 }
 
 h4, p {
-	text-align: center;
+	text-align: left;
 }
 
 .memes {
@@ -68,4 +68,20 @@ h4, p {
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running;
+}
+
+ @keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: transparent;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: transparent;
+  }
+
 }
