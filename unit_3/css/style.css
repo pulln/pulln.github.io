@@ -1,0 +1,11 @@
+body {
+	font-style: helvetica;
+}
+
+h1 {
+	size: 125px;
+}
+
+h1, h3 {
+	text-align: left;
+}
