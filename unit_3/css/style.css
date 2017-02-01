@@ -6,23 +6,7 @@ background: url("../images/europa.jpg") no-repeat fixed;
 background-size: cover;
 }
 
-	div {
-   height: 151px;
-   width: 250px;
-    
-   color: white;
-   background-color: black; 
-    
-    transition: background-color 1s linear; 
-   -moz-transition: background-color 1s linear;  
-   -webkit-transition: background-color 1s linear; 
-   -ms-transition: background-color 1s linear; 
-}
 
-div:hover {
-   background-color: transparent;
-  
-}
 
 }
 
@@ -60,33 +44,3 @@ h4, p:hover {
 	background: transparent;
 }
 
-.memes {
-  height: 151px;
-  width: 250px;
-  margin: 0 auto;
-  background-color: black;
-  animation-name: stretch;
-  animation-duration: 2s; 
-  animation-timing-function: ease-out; 
-  animation-delay: 0;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-fill-mode: none;
-  animation-play-state: running;
-}
-
- @keyframes stretch {
-  0% {
-    transform: scale(.3);
-    background-color: transparent;
-    border-radius: 100%;
-  }
-  50% {
-    background-color: transparent;
-  }
-  100% {
-    transform: scale(1.5);
-    background-color: transparent;
-  }
-
-}
