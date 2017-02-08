@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Barrio|Noto+Serif');
+
 html {
 background: url("../images/europa.jpg") no-repeat fixed;
 -webkit-background-size: cover;
@@ -88,13 +89,3 @@ p.trash {
   }
 }
 
-body,
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
