@@ -1,0 +1,54 @@
+html {
+background: url("../images/europa.jpg") no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+}
+
+body {
+  background-color: black;
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Barrio', cursive;
+}
+
+h3, p {
+  font-family: 'Noto Serif', serif;
+}
+
+h1, h3, h4 {
+  animation-duration: 15s;
+  animation-name: slidein;
+ text-align: left;
+ color: white;
+ size: 250px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h4, p {
+  color: white;
+  background: black;
+  text-align: left;
+}
+h4, p:hover {
+  background: transparent;
+}
+
