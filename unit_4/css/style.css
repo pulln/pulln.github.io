@@ -16,6 +16,7 @@ h1 {
 h2, p.flavor {
       margin-left: 2cm;
     margin-right: 20cm;
+        line-height: 200%;
   font-family: 'Noto Serif', serif;
   color: white;
 }
@@ -50,6 +51,7 @@ h4 {
 p.ktc {
     margin-left: 2cm;
     margin-right: 20cm;
+        line-height: 200%;
   font-family: 'Noto Serif', serif;
   color: white;
 
