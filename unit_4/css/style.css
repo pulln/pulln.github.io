@@ -40,14 +40,14 @@ h3 {
 }
 
 h4 {
-  margin: 20cm, 11cm, 2cm, 0.5cm;
+  margin: 20cm, 35cm, 2cm, 0.5cm;
   font-family: 'Noto Serif', serif;
 	color: white;
 	text-align: left;
 }
 
 p.ktc {
-  margin: 2cm, 11cm, 4cm, 0.5cm;
+  margin: 2cm, 35cm, 4cm, 0.5cm;
   font-family: 'Noto Serif', serif;
   color: white;
 
@@ -62,6 +62,7 @@ p.trash {
 .memes {
   height: 151px;
   width: 250px;
+  margin-top; 6cm;
   margin: 0 auto;
   background-color: red;
   animation-name: stretch;
