@@ -6,11 +6,12 @@ background: url("../images/europa.jpg") no-repeat fixed;
 background-size: cover;
 }
 
+
 }
 
 body {
-  background-color: black;
-  font-style: italic;
+	background-color: black;
+	font-style: italic;
 }
 
 h1 {
@@ -42,11 +43,11 @@ h1, h3, h4 {
 }
 
 h4, p {
-  color: white;
-  background: black;
-  text-align: left;
+	color: white;
+	background: black;
+	text-align: left;
 }
 h4, p:hover {
-  background: transparent;
+	background: transparent;
 }
 

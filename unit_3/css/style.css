@@ -7,12 +7,19 @@ background-size: cover;
 }
 
 
-
 }
 
 body {
 	background-color: black;
 	font-style: italic;
+}
+
+h1 {
+  font-family: 'Barrio', cursive;
+}
+
+h3, p {
+  font-family: 'Noto Serif', serif;
 }
 
 h1, h3, h4 {
