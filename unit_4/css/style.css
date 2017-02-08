@@ -12,6 +12,7 @@ h1 {
 }
 
 h2, p.flavor {
+  margin: 2cm, 11cm, 20cm, 0.5cm;
   font-family: 'Noto Serif', serif;
   color: white;
 }
@@ -37,6 +38,62 @@ h3 {
 }
 
 h4 {
+  margin: 20cm, 11cm, 2cm, 0.5cm;
+  font-family: 'Noto Serif', serif;
 	color: white;
 	text-align: left;
+}
+
+p.ktc {
+  margin: 2cm, 11cm, 4cm, 0.5cm;
+  font-family: 'Noto Serif', serif;
+  color: white;
+
+}
+
+p.trash {
+  margin: 2cm 200cm 2cm 0.5cm;
+  color: white;
+  text-align: left;
+}
+
+.memes {
+  height: 151px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
