@@ -6,28 +6,22 @@ background: url("../images/europa.jpg") no-repeat fixed;
 background-size: cover;
 }
 
-
-}
-
-body {
-	background-color: black;
-	font-style: italic;
-}
-
 h1 {
   font-family: 'Barrio', cursive;
+  color: white;
 }
 
-h3, p {
+h2, p.flavor {
   font-family: 'Noto Serif', serif;
+  color: white;
 }
 
-h1, h3, h4 {
+h3 {
   animation-duration: 15s;
   animation-name: slidein;
  text-align: left;
  color: white;
- size: 250px;
+ size: 100px;
 }
 
 @keyframes slidein {
@@ -42,12 +36,7 @@ h1, h3, h4 {
   }
 }
 
-h4, p {
+h4 {
 	color: white;
-	background: black;
 	text-align: left;
 }
-h4, p:hover {
-	background: transparent;
-}
-
