@@ -14,7 +14,8 @@ h1 {
 }
 
 h2, p.flavor {
-  margin: 2cm, 11cm, 20cm, 0.5cm;
+      margin-left: 2cm;
+    margin-right: 20cm;
   font-family: 'Noto Serif', serif;
   color: white;
 }
@@ -47,14 +48,15 @@ h4 {
 }
 
 p.ktc {
-  margin: 2cm, 35cm, 4cm, 0.5cm;
+    margin-left: 2cm;
+    margin-right: 20cm;
   font-family: 'Noto Serif', serif;
   color: white;
 
 }
 
 p.trash {
-  margin: 2cm 200cm 2cm 0.5cm;
+  margin: 2cm 20cm 2cm 0.5cm;
   color: white;
   text-align: left;
 }
