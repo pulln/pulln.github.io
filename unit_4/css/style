@@ -6,8 +6,6 @@ background: url("../images/europa.jpg") no-repeat fixed;
 background-size: cover;
 }
 
-
-
 }
 
 body {
